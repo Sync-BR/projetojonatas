@@ -15,9 +15,9 @@
     <header><a href="index.html">Guia de restaurantes locais</a></header>
     <nav>
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre nós</a></li>
-            <li><a href="#">Avaliações</a></li>
+            <li><a href="#slider">Inicio</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#avaliacoes">Avaliações</a></li>
             <li><a href="#">Fotos</a></li>
             <li><a href="#">Contato</a></li>
         </ul>
@@ -39,13 +39,254 @@
      <button class="slider-button"> <a href="#">Visualizar</a> </button>
 </div>
 
-<!-- Paginas-->
+<!-- Inicio-->
 <main id="inicio">
+    <!-- Filtro -->
+    <div class="filter-restaurante">
+        <div class="filter-restaurantes-icon">
+            <!-- Filtro de data -->
+            <img src="./img/filter/calender.svg" alt="Data">
+                <select>
+                    <option value="">Selecione uma data</option>
+                    <option value="Segunda" >Segunda-feira</option>
+                    <option value="Terça">Terça-feira</option>
+                    <option value="Quarta">Quarta-feira</option>
+                    <option value="Quinta">Quinta-feira</option>
+                    <option value="Sexta">Sexta-feira</option>
+                    <option value="Sabado">Sabado</option>
+                    <option value="Domingo">Domingo</option>
+                </select>
 
+            <!-- Filtro de cidade -->
+            <img src="./img/filter/map.svg" alt="local">
+                <select>
+                    <option value="">Selecione uma cidade</option>
+                    <option value="salvador">Salvador</option>
+                    <option value="lauro-de-freitas">Lauro de Freitas</option>
+                    <option value="camaçari">Camaçari</option>
+                    <option value="vilas-do-atlantico">Vilas do Atlântico</option>
+                    <option value="itapua">Itapuã</option>
+                    <option value="barra">Barra</option>
+                    <option value="onda-verde">Ondina</option>
+                    <option value="periperi">Periperi</option>
+                    <option value="stella-maris">Stella Maris</option>
+                    <option value="piata">Piatã</option>
+                </select>
+
+            <!-- Filtro de horario  -->
+            <img src="./img/filter/referee_basket_sports_time_basketball_icon_230729.svg" alt="Local">
+                <select>
+                    <option value="">Selecione uma horario</option>
+                    <option value="Manha"> Café da Manha</option>
+                    <option value="meiodia"> Almoço</option>
+                    <option value="Noite"> Jantar</option>
+                </select>
+        </div>
+    </div>
+
+    <!-- Lista de Restaurantes -->
+    <div id="lista-restaurantes">
+        <!-- Informação  -->
+        <div class="lista-restaurantes-titulo"> 
+            <h3>Lista de Restaurantes</h3>
+        </div>
+        <!-- Lista de postagem -->
+        <div class="lista-restaurantes-all">
+
+            <!-- Postagem 1 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 2 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- postagem 3 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 4 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 5 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 6 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 7 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 8 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 9 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 10 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 11 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+            <!-- Postagem 12 -->
+            <div class="lista-restaurantes-post">
+                <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="postagem 1">
+                <h4>Titulo</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, ex cum esse perspiciatis deleniti nobis tempora ab. Inventore vero enim consectetur totam assumenda vel nobis dignissimos. Est dolores eveniet non?</p>
+                <button type="submit"><a href="#" target="_blank">Visitar</a></button>
+            </div>
+        
+        </div>
+    </div>
+</main>
+
+<!-- Pagina Sobre -->
+<main id="sobre">
+    <h3>Sobre nós</h3>
+    <div class="container-sobre">
+        <p>
+            Bem-vindo à nossa página do Instagram dedicada à divulgação dos melhores restaurantes em Salvador! Aqui você encontrará uma seleção cuidadosa dos estabelecimentos gastronômicos mais incríveis da cidade, oferecendo uma experiência culinária única para todos os paladares.
+<br>
+            Nossa missão é compartilhar dicas, avaliações e fotos deliciosas que farão você descobrir novos sabores e vivenciar momentos memoráveis em meio à rica cena gastronômica de Salvador. Dos pratos tradicionais da culinária baiana aos sabores internacionais, estamos aqui para inspirar e incentivar você a explorar os restaurantes que tornam esta cidade tão especial.
+<br>
+            Prepare-se para desfrutar de imagens apetitosas de pratos suculentos, ambientes acolhedores e detalhes encantadores que fazem de cada restaurante uma experiência única. Além disso, forneceremos informações úteis sobre horários de funcionamento, localização e contatos para ajudá-lo a planejar suas visitas.
+<br>
+            Se você é um amante da boa comida, um explorador culinário ou simplesmente alguém em busca de uma experiência gastronômica inesquecível, este é o lugar certo para você. Junte-se a nós enquanto celebramos os sabores de Salvador e desvendamos os segredos dos melhores restaurantes da cidade.
+<br>
+            Siga-nos para receber atualizações regulares sobre os restaurantes mais quentes, eventos gastronômicos emocionantes e ofertas exclusivas. Venha conosco nesta jornada gastronômica e deixe-se encantar pelos sabores e aromas que tornam Salvador um verdadeiro paraíso culinário.
+<br>
+            Bem-vindo(a) ao nosso universo de sabores em Salvador! 🍽️✨
+        </p>
+        <button class="sobre-button"><a href="#">Avaliações</a> </button>
+    </div>
+</main>
+
+<!-- Pagina de avaliação -->
+<main id="avaliacoes">
+    <h3>Área de avaliações</h3>
+
+    <!-- Container da avaliação -->
+    <div id="container-avaliacoes">
+
+        <!-- Usuarios -->
+        <div class="user-avaliacoes">
+            <div>
+                <img src="./img/users/usuario.png" alt="usuario">
+            </div>    
+            <div>
+                <strong>Nome:</strong> Eduardo
+                <br>
+                <strong>Comentario: </strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illum placeat ullam necessitatibus magnam adipisci suscipit et doloribus error velit ipsum alias expedita voluptates vero dignissimos tempora, dolore minus? Ea.</p>
+            </div>
+        </div>
+
+        <!-- Usuarios -->
+        <div class="user-avaliacoes">
+            <div>
+                <img src="./img/users/usuario.png" alt="usuario">
+            </div>    
+            <div>
+                <strong>Nome:</strong> Eduardo
+                <br>
+                <strong>Comentario: </strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illum placeat ullam necessitatibus magnam adipisci suscipit et doloribus error velit ipsum alias expedita voluptates vero dignissimos tempora, dolore minus? Ea.</p>
+            </div>
+        </div>
+
+        <!-- Usuarios -->
+        <div class="user-avaliacoes">
+            <div>
+                <img src="./img/users/usuario.png" alt="usuario">
+            </div>    
+            <div>
+                <strong>Nome:</strong> Eduardo
+                <br>
+                <strong>Comentario: </strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illum placeat ullam necessitatibus magnam adipisci suscipit et doloribus error velit ipsum alias expedita voluptates vero dignissimos tempora, dolore minus? Ea.</p>
+            </div>
+        </div>
+        
+        <!-- Usuarios -->
+        <div class="user-avaliacoes">
+            <div>
+                <img src="./img/users/usuario.png" alt="usuario">
+            </div>    
+            <div>
+                <strong>Nome:</strong> Eduardo
+                <br>
+                <strong>Comentario: </strong>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic illum placeat ullam necessitatibus magnam adipisci suscipit et doloribus error velit ipsum alias expedita voluptates vero dignissimos tempora, dolore minus? Ea.</p>
+            </div>
+        </div>
+    </div>
+</main>
+
+<main id="fotos">
+    <h3>Galeria de fotos</h3>
+    <div id="container-fotos">
+        <div class="fotos-img">
+            <!-- Foto 1 -->
+            <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="galeria">
+            <!-- Foto 2 -->
+            <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="galeria">
+            <!-- Foto 3 -->
+            <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="galeria">
+            <!-- Foto 4 -->
+            <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="galeria">
+            <!-- Foto 5 -->
+            <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="galeria">
+            <!-- Foto 6 -->
+            <img src="./img/quadro-de-comida-de-vista-superior-com-copia-espaco.jpg" alt="galeria">
+        </div>
+    </div>
 </main>
 
 
 
+<!-- Rodape -->
 <footer>
     <div class="container-rodape-infor">
         <!-- informação da empresa -->

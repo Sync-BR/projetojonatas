@@ -1,8 +1,202 @@
+/* Pagina inicial */
 #inicio{
     display: flex;
     flex-direction: column;
     border: 1px solid white;
     background-color: #2C3E50;
-    width: 100%;
-    height: 100vw;
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
 } 
+    /* Container do filtro */
+    .filter-restaurante{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #6e7883;
+        width: 99%;
+        height: 80px;
+        border: 2px solid black;
+        margin-top: 5px;
+    }
+        .filter-restaurantes-icon{
+            display: grid;
+            grid-auto-flow: column;
+            place-items: center;
+        }
+            .filter-restaurantes-icon img{
+                width: 62px;
+            }
+
+        .filter-restaurantes-icon select{
+            width: 200px;
+            height: 30px;
+            text-align: center;
+        }
+/* lista de restaurantes */
+#lista-restaurantes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+    .lista-restaurantes-titulo h3{
+        font-size: 3em;
+        text-transform: uppercase;
+    }
+
+    .lista-restaurantes-all{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    .lista-restaurantes-all img{
+        width: 245px;
+    }
+        /* Postagem */
+        .lista-restaurantes-post{
+            background-color: white;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            width: 250px;
+            border: 1px solid white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+            .lista-restaurantes-post h4{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 28px;
+            }
+            .lista-restaurantes-post p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                text-align: left;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding-left: 10px;
+            }
+            .lista-restaurantes-post button{
+                width: auto;
+                height: 50px;
+                cursor: pointer;
+                border-radius: 5px;
+            }
+            .lista-restaurantes-post button a{
+                text-decoration: none;
+                color: black;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+            }
+
+/* Pagina Sobre */
+
+#sobre{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: #2C3E50;
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+}
+    #sobre h3{
+        text-align: center;
+        font-size: 10em;
+        margin-top: 100px;
+    }
+        .container-sobre{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 60vw;
+            padding-top: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-bottom: 10px;
+        }
+            .container-sobre p{
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 18px;
+                text-align: justify;
+            }
+            .sobre-button{
+                margin-top: 150px;
+                width: 200px;
+                height: 60px;
+            }
+
+/* Avaliações */
+#avaliacoes{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: #2C3E50;
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+    #avaliacoes h3{
+        text-align: center;
+        font-size: 5em;
+        margin-top: 190px;
+    }
+
+#container-avaliacoes{
+    display: flex;
+    flex-direction: column;
+    height: 60vw;
+    justify-content: center;
+}
+    .user-avaliacoes{
+        background-color: #07070742;
+        display: flex;
+        flex-direction: row;
+        border: 1px solid black;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+        .user-avaliacoes strong{
+            font-size: 18px;
+        }
+        .user-avaliacoes p{
+            font-size: 16px;
+        }
+
+/* Pagina de fotos */
+#fotos{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: #2C3E50;
+    width: auto;
+    height: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+    #fotos h3{
+        margin-top:190px ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 6em;
+    }
+    #container-fotos{
+        width: auto;
+        height: auto;
+        background-color: #2C3E50;
+    }
+        .fotos-img{
+            display: flex;
+            flex-direction: row;
+            flex-flow: wrap;
+            column-gap:60px;
+            flex: 1;
+        }
+            .fotos-img img{
+                width: 400px;
+            }
