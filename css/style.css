@@ -1,0 +1,152 @@
+body{
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+/* navegador*/
+#topo{
+    border: 1px solid white;
+    background-color: #002333;
+    display: flex;
+    flex-direction:row ;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+}
+    /* Cabeçalho */
+    header{
+        width: 50%;
+        padding-left: 10px;
+    }
+        header a{
+            color: white;
+            text-decoration: none;
+            font-size: 2.8em;
+            font-family: 'Noto Serif Makasar', serif;
+            cursor: pointer; 
+        }
+    nav{
+        display: flex;
+        width: 50%;
+    }
+        nav ul{
+            display: inline-flex;
+            margin-top: auto ;
+            margin-bottom: auto;
+        }
+            nav ul li{
+                margin-left: 20px;
+                list-style: none;
+
+            }
+                nav ul li a{
+                    color: white;
+                    font-size: 28px;
+                    text-decoration: none;
+                }
+/* Slider */
+#slider{
+    background-color: #2C3E50;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 100%;
+    height: auto;
+}
+    .slider-img{
+        position: relative;
+        width: 100%;
+        height: 50vw;
+        filter: blur(0.9px);
+    }
+        .slider-infor h2{
+            position: absolute;
+            font-family: 'Caprasimo', cursive;
+            font-size: 5em;
+            top: 200px;
+            left: 200px;
+            text-shadow:  -2px -2px black;
+            
+        }
+        .slider-infor p{
+            position: absolute;
+            font-family: 'PT Serif', serif;
+            font-size: 22px;
+            text-shadow: -2px -2px 2px black;
+            top: 290px;
+            left: 240px;
+            width: 60%;
+        }
+            .slider-button{
+                position: absolute;
+                background-color: orange;
+                border-radius: 40px;
+                border: 2px solid black;
+                width: 200px;
+                height: 80px;
+                top: 450px;
+                left: 300px;
+            }
+                .slider-button a{
+                    text-decoration: none;
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 2em;
+                }
+
+/* Rodape */
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+    footer p{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+
+    }
+        .container-rodape-infor{
+            display: flex;
+            flex-direction: row;
+            width: 50%;
+        }
+            .rodape-img{
+                display: flex;
+                flex-direction: column;
+            }
+                .rodape-img img{
+                    margin-top: 10px;
+                    width: 42px;
+                }
+            .rodape-infor{
+                display: flex;
+                flex-direction: column;
+            }
+                .rodape-infor a{
+                    text-decoration: none;
+                    color: white;
+                    margin-top: 30px;
+                    margin-left: 10px;
+                    
+                }
+    .container-rodape-nav{
+        width: 50%;
+        padding-top: 20px;
+    }
+        .container-rodape-nav ul li{
+            margin-bottom: 10px;
+            list-style: none;
+        }
+        .container-rodape-nav a{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            text-decoration: none;        
+        }
